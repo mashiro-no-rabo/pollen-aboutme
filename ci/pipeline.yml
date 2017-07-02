@@ -1,0 +1,14 @@
+resources:
+- name: git-pollen-aboutme
+  type: git
+  source:
+    uri: https://github.com/aquarhead/pollen-aboutme.git
+    branch: master
+
+jobs:
+- name: test-render
+  plan:
+  - get: git-pollen-aboutme
+    trigger: true
+  - task: render
+    file: pollen-aboutme/render.yml
