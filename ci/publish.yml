@@ -1,0 +1,15 @@
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: jackfirth/racket
+
+inputs:
+- name: pollen-aboutme
+
+outputs:
+- name: output
+
+run:
+  path: ./pollen-aboutme/ci/publish.sh
