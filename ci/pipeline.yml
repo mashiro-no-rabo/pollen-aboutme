@@ -8,7 +8,8 @@ resources:
 jobs:
 - name: test-render
   plan:
-  - get: git-pollen-aboutme
+  - get: pollen-aboutme
+    resource: git-pollen-aboutme
     trigger: true
   - task: render
-    file: pollen-aboutme/render.yml
+    file: pollen-aboutme/ci/render.yml
