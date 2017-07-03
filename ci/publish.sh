@@ -3,6 +3,5 @@
 set -e -x
 
 pushd pollen-aboutme
-  raco pkg install --batch --auto pollen
-  raco pollen publish . ../output/published-aboutme
+  raco pollen publish . ../published/aboutme
 popd
