@@ -9,4 +9,5 @@
       (define name-str (path->string name))
       (or
         (equal? name-str "ci")
-        (equal? name-str "README.md")))))
+        (equal? name-str "README.md")
+        (equal? name-str "template.html")))))
