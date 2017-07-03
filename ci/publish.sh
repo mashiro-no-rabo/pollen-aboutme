@@ -2,5 +2,7 @@
 
 set -e -x
 
-cd pollen-aboutme
-raco pollen publish . ../published/aboutme
+pushd pollen-aboutme
+  raco pollen render -r
+  raco pollen publish . ../published/aboutme
+popd
