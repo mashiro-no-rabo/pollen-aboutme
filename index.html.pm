@@ -50,6 +50,7 @@
     ◊link[#:href "https://speakerdeck.com/aquarhead"]{Speaker Deck}
     ◊link[#:href "http://bgm.tv/user/aquarhead"]{Bangumi}
     ◊link[#:href "https://letterboxd.com/aquarhead/"]{Letterboxd}
+    ◊link[#:href "https://bandcamp.com/aquarhead"]{Bandcamp}
     ◊link[#:href "https://www.flickr.com/photos/aquarhead"]{Flickr}
     ◊link[#:href "https://www.instagram.com/aquarhead/"]{Instagram}
     ◊link[#:href "http://steamcommunity.com/id/aquarhead"]{Steam}
