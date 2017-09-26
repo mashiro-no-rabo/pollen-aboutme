@@ -90,7 +90,7 @@ a.ela, a.ela:visited {
   color: ◊瑠璃;
 }
 
-ul {
+ol {
   font-family: ◊font-default;
   font-size: 1.1em;
   list-style-type: hiragana;
@@ -98,7 +98,7 @@ ul {
   color: ◊水浅葱;
 }
 
-ul a, ul a:visited {
+ol a, ol a:visited {
   color: ◊空;
 }
 
