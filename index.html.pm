@@ -59,6 +59,7 @@
     ◊link[#:href "https://www.instagram.com/aquarhead/"]{Instagram}
     ◊link[#:href "http://steamcommunity.com/id/aquarhead"]{Steam}
     ◊link[#:href "https://www.playstation.com/en-us/my/public-trophies/?onlineId=aquarhead"]{PSN}
+    ◊link[#:href "https://keybase.io/aquarhead"]{Keybase}
     ◊link[#:href "https://stackoverflow.com/cv/aquarhead"]{CV}
   }
 }
