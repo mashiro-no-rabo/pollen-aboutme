@@ -40,7 +40,6 @@
     ◊link[#:href "http://ela.build/oneclock"]{One Clock}
     ◊link[#:href "https://github.com/TeaWhen/Shoka"]{Shoka}
     ◊link[#:href "https://github.com/ElaWorkshop/ex_loglite"]{ExLogLite}
-    ◊link[#:href "https://github.com/aquarhead/card_labeler"]{card_labeler}
   }
 }
 
