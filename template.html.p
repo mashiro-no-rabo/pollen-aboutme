@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
-    <title>AquarHEAD |> About Me</title>
+    <title>me |> about</title>
 
     <link href="/stylesheets/normalize.css" rel="stylesheet" />
     <link href="/stylesheets/style.css" rel="stylesheet" />
