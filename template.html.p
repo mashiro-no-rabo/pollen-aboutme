@@ -7,9 +7,6 @@
 
     <title>me |> about</title>
 
-    <script src="https://use.typekit.net/sjp2kdn.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
     <link href="/stylesheets/normalize.css" rel="stylesheet" />
     <link href="/stylesheets/style.css" rel="stylesheet" />
     <link href="/images/favicon.ico" rel="icon" type="image/ico" />

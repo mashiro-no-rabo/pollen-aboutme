@@ -13,13 +13,14 @@
 ◊(define 黒 "#080808")
 ◊(define 墨 "#1C1C1C")
 
-◊(define font-default "\"ten-mincho\", serif")
+◊(define font-default "\"Merriweather\", \"Hannari\", serif")
 ◊(define font-title "\"Alegreya SC\", serif")
 ◊(define font-nickname "\"Tangerine\", serif")
 ◊(define font-code "\"Fira Code\", monospace")
 
 @charset "utf-8";
-@import "https://fonts.googleapis.com/css?family=Alegreya+SC|Tangerine";
+@import "https://fonts.googleapis.com/css?family=Alegreya+SC|Merriweather|Tangerine";
+@import "https://fonts.googleapis.com/earlyaccess/hannari.css";
 
 @font-face {
   font-family: "Fira Code";
