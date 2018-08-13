@@ -25,7 +25,7 @@
     ◊link[#:href "https://www.eveonline.com/"]{EVE Online}
     ◊dead{DUST 514}
     ◊link[#:href "http://www.gunjack.com/"]{Gunjack}
-    ◊link[#:href "https://esi.tech.ccp.is/latest/"]{ESI}
+    ◊link[#:href "https://esi.evetech.net/"]{ESI}
   }
 }
 
@@ -50,13 +50,13 @@
     ◊link[#:href "https://twitter.com/aquarhead"]{Twitter}
     ◊link[#:href "http://blog.aquarhead.me/"]{Blog}
     ◊link[#:href "https://speakerdeck.com/aquarhead"]{Speaker Deck}
-    ◊link[#:href "http://bgm.tv/user/aquarhead"]{Bangumi}
+    ◊link[#:href "https://bgm.tv/user/aquarhead"]{Bangumi}
     ◊link[#:href "https://www.goodreads.com/aquarhead"]{Goodreads}
     ◊link[#:href "https://letterboxd.com/aquarhead/"]{Letterboxd}
     ◊link[#:href "https://bandcamp.com/aquarhead"]{Bandcamp}
     ◊link[#:href "https://www.flickr.com/photos/aquarhead"]{Flickr}
     ◊link[#:href "https://www.instagram.com/aquarhead/"]{Instagram}
-    ◊link[#:href "http://steamcommunity.com/id/aquarhead"]{Steam}
+    ◊link[#:href "https://steamcommunity.com/id/aquarhead"]{Steam}
     ◊link[#:href "https://www.playstation.com/en-us/my/public-trophies/?onlineId=aquarhead"]{PSN}
     ◊link[#:href "https://keybase.io/aquarhead"]{Keybase}
     ◊link[#:href "https://stackoverflow.com/cv/aquarhead"]{CV}
