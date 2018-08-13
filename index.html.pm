@@ -48,7 +48,7 @@
   ◊ol[#:start (number->string next-start)]{
     ◊link[#:href "https://github.com/aquarhead"]{GitHub}
     ◊link[#:href "https://twitter.com/aquarhead"]{Twitter}
-    ◊link[#:href "http://blog.aquarhead.me/"]{Blog}
+    ◊link[#:href "https://blog.aquarhead.me/"]{Blog}
     ◊link[#:href "https://speakerdeck.com/aquarhead"]{Speaker Deck}
     ◊link[#:href "https://bgm.tv/user/aquarhead"]{Bangumi}
     ◊link[#:href "https://www.goodreads.com/aquarhead"]{Goodreads}
