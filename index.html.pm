@@ -35,9 +35,9 @@
     Wizard |> ◊a[#:class "ela" #:href "https://github.com/ElaWorkshop"]{ElaWorkshop}
   }
   ◊ol[#:start (number->string next-start)]{
-    ◊link[#:href "http://ela.build/expense"]{Expense}
+    ◊link[#:href "https://ela.build/expense"]{Expense}
     ◊link[#:href "https://github.com/HaloWordApp/halosir"]{HaloSir}
-    ◊link[#:href "http://ela.build/oneclock"]{One Clock}
+    ◊link[#:href "https://ela.build/oneclock"]{One Clock}
     ◊link[#:href "https://github.com/TeaWhen/Shoka"]{Shoka}
     ◊link[#:href "https://github.com/ElaWorkshop/ex_loglite"]{ExLogLite}
   }
