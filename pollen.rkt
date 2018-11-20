@@ -8,6 +8,6 @@
       (define-values (dir name dir?) (split-path path))
       (define name-str (path->string name))
       (or
-        (equal? name-str "ci")
+        (equal? name-str ".circleci")
         (equal? name-str "README.md")
         (equal? name-str "template.html")))))
