@@ -13,7 +13,7 @@ jobs:
             raco pollen render -r
             raco pollen publish . /publish/aboutme
       - store_artifacts:
-          path: /artifact/aboutme
+          path: /publish/aboutme
 workflows:
   version: 2
   pollen-publish:
