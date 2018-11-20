@@ -1,0 +1,21 @@
+version: 2
+jobs:
+  pollen-publish:
+    docker:
+      - image: aquarhead/pollen:latest
+    working_directory: ~/me
+    steps:
+      - checkout
+      - run:
+          name: "Pollen"
+          command: |
+            mkdir /publish
+            raco pollen render -r
+            raco pollen publish . /publish/aboutme
+      - store_artifacts:
+          path: /artifact/aboutme/*
+workflows:
+  version: 2
+  pollen-publish:
+    jobs:
+      - pollen-publish
