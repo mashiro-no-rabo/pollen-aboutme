@@ -16,6 +16,8 @@ jobs:
         path: /publish/aboutme
     - persist_to_workspace:
         root: /publish/aboutme
+        paths:
+        - *
   rsync-deploy:
     docker:
     - image: instrumentisto/rsync-ssh
