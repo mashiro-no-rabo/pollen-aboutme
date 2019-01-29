@@ -2,20 +2,41 @@ version: 2
 jobs:
   pollen-publish:
     docker:
-      - image: aquarhead/pollen:latest
+    - image: aquarhead/pollen:latest
     working_directory: ~/me
     steps:
-      - checkout
-      - run:
-          name: "Pollen"
-          command: |
-            mkdir /publish
-            raco pollen render -r
-            raco pollen publish . /publish/aboutme
-      - store_artifacts:
-          path: /publish/aboutme
+    - checkout
+    - run:
+        name: "Pollen"
+        command: |
+          mkdir /publish
+          raco pollen render -r
+          raco pollen publish . /publish/aboutme
+    - store_artifacts:
+        path: /publish/aboutme
+    - persist_to_workspace:
+        root: /publish/aboutme
+  rsync-deploy:
+    docker:
+    - image: instrumentisto/rsync-ssh
+    working_directory: /work
+    steps:
+    - attach_workspace:
+        at: /work
+    - add_ssh_keys
+    - run:
+        name: "Deploy via Rsync"
+        command: |
+          ssh-keyscan aqd.is >> ~/.ssh/known_hosts
+          rsync -va --delete --port 8964 /work aquarhead@aqd.is:/home/aquarhead/deploy/aboutme
 workflows:
   version: 2
-  pollen-publish:
+  publish-and-deploy:
     jobs:
-      - pollen-publish
+    - pollen-publish
+    - rsync-deploy:
+        requires:
+        - pollen-publish
+        filters:
+          branches:
+            only: master
