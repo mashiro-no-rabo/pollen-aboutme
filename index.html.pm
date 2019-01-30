@@ -24,7 +24,7 @@
   ◊ol[#:start (number->string next-start)]{
     ◊link[#:href "https://www.eveonline.com/"]{EVE Online}
     ◊dead{DUST 514}
-    ◊link[#:href "http://www.gunjack.com/"]{Gunjack}
+    ◊dead{Gunjack}
     ◊link[#:href "https://esi.evetech.net/"]{ESI}
   }
 }
