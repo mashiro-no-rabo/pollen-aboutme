@@ -39,7 +39,7 @@
     ◊link[#:href "https://github.com/HaloWordApp/halosir"]{HaloSir}
     ◊link[#:href "https://ela.build/oneclock"]{One Clock}
     ◊link[#:href "https://github.com/TeaWhen/Shoka"]{Shoka}
-    ◊link[#:href "https://github.com/ElaWorkshop/ex_loglite"]{ExLogLite}
+    ◊link[#:href "https://github.com/spawnfest/func_diff"]{FuncDiff}
   }
 }
 
