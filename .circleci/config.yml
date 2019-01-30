@@ -30,7 +30,7 @@ jobs:
         command: |
           sudo apt-get update && sudo apt-get install rsync
           ssh-keyscan aqd.is >> ~/.ssh/known_hosts
-          rsync -va --delete --port 8964 ~/work aquarhead@aqd.is:/home/aquarhead/deploy/aboutme
+          rsync -va --delete -e "ssh -p 8964" ~/work aquarhead@aqd.is:/home/aquarhead/deploy/aboutme
 workflows:
   version: 2
   publish-and-deploy:
