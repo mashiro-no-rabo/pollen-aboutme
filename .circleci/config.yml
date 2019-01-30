@@ -21,17 +21,16 @@ jobs:
   rsync-deploy:
     docker:
     - image: circleci/elixir:latest
-    working_directory: /work
     steps:
     - attach_workspace:
-        at: /work
+        at: ~/work
     - add_ssh_keys
     - run:
         name: "Deploy via Rsync"
         command: |
           sudo apt-get update && sudo apt-get install rsync
           ssh-keyscan aqd.is >> ~/.ssh/known_hosts
-          rsync -va --delete --port 8964 /work aquarhead@aqd.is:/home/aquarhead/deploy/aboutme
+          rsync -va --delete --port 8964 ~/work aquarhead@aqd.is:/home/aquarhead/deploy/aboutme
 workflows:
   version: 2
   publish-and-deploy:
