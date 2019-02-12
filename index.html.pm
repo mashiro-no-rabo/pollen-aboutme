@@ -26,6 +26,7 @@
     ◊dead{DUST 514}
     ◊dead{Gunjack}
     ◊link[#:href "https://esi.evetech.net/"]{ESI}
+    ◊link[#:href "https://www.eveonline.com/article/pms1i4/chat-system-an-update-and-the-future"]{EVE Chat}
   }
 }
 
