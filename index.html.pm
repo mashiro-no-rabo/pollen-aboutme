@@ -59,6 +59,7 @@
     ◊link[#:href "https://www.instagram.com/aquarhead/"]{Instagram}
     ◊link[#:href "https://steamcommunity.com/id/aquarhead"]{Steam}
     ◊link[#:href "https://keybase.io/aquarhead"]{Keybase}
+    ◊link[#:href "/publickey"]{PGP Public Key}
     ◊link[#:href "https://airtable.com/shrpMEu09HJ8o3Bkl"]{Currently Inked}
     ◊link[#:href "https://stackoverflow.com/cv/aquarhead"]{CV}
   }
