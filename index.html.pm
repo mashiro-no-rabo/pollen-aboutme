@@ -26,7 +26,7 @@
   ◊code{
     fun (◊inlink[#:class "ccp" #:href "https://www.ccpgames.com/"]{CCP_Games}, SE)
     ->
-    ◊inlink[#:class "ccp" #:href "https://www.erlang.org/"]{true}.
+    ◊inlink[#:class "hidden" #:href "https://www.erlang.org/"]{true}.
   }
   ◊ol[#:start (number->string next-start)]{
     ◊link[#:href "https://www.eveonline.com/"]{EVE Online}
@@ -41,7 +41,7 @@
   ◊h2{Indie}
   ◊code{
     Wizard
-    ◊inlink[#:class "ela" #:href "https://elixir-lang.org/"]{|>}
+    ◊inlink[#:class "hidden" #:href "https://elixir-lang.org/"]{|>}
     ◊inlink[#:class "ela" #:href "https://github.com/ElaWorkshop"]{ElaWorkshop}
   }
   ◊ol[#:start (number->string next-start)]{

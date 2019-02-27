@@ -90,6 +90,10 @@ a.ela, a.ela:visited {
   color: ◊瑠璃;
 }
 
+a.hidden, a.hidden:visited {
+  color: unset;
+}
+
 ol {
   font-family: ◊font-default;
   font-size: 1.1em;
