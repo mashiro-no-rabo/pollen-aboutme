@@ -78,16 +78,9 @@ code {
   font-size: 1em;
 }
 
-a.ccp, a.ccp:visited {
+a.codelink, a.codelink:visited {
   color: ◊群青;
-}
 
-a.wizard, a.wizard:visited {
-  color: ◊空;
-}
-
-a.ela, a.ela:visited {
-  color: ◊瑠璃;
 }
 
 a.hidden, a.hidden:visited {
@@ -109,4 +102,8 @@ ol a, ol a:visited {
 .dead {
   color: ◊水;
   text-decoration: line-through;
+}
+
+.ly {
+  color: ◊瑠璃;
 }

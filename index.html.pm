@@ -24,7 +24,7 @@
 ◊div[#:class "daily"]{
   ◊h2{Daily}
   ◊code{
-    fun (◊inlink[#:class "ccp" #:href "https://www.ccpgames.com/"]{CCP_Games}, SE)
+    fun (◊inlink[#:class "codelink" #:href "https://www.ccpgames.com/"]{CCP_Games}, SE)
     ->
     ◊inlink[#:class "hidden" #:href "https://www.erlang.org/"]{true}.
   }
@@ -42,7 +42,7 @@
   ◊code{
     Wizard
     ◊inlink[#:class "hidden" #:href "https://elixir-lang.org/"]{|>}
-    ◊inlink[#:class "ela" #:href "https://github.com/ElaWorkshop"]{ElaWorkshop}
+    ◊inlink[#:class "codelink" #:href "https://github.com/ElaWorkshop"]{ElaWorkshop}
   }
   ◊ol[#:start (number->string next-start)]{
     ◊link[#:href "https://ela.build/expense"]{Expense}
@@ -71,5 +71,14 @@
     ◊link[#:href "/publickey.txt"]{PGP Public Key}
     ◊link[#:href "https://airtable.com/shrpMEu09HJ8o3Bkl"]{Currently Inked}
     ◊link[#:href "https://stackoverflow.com/cv/aquarhead"]{CV}
+  }
+}
+
+◊div[#:class "heart"]{
+  ◊h2{Ást}
+  ◊code{
+    Ég
+    ◊inlink[#:class "hidden" #:href "https://github.com/llxy"]{elska}
+    ◊span[#:class "ly"]{@zinnialulu}
   }
 }
