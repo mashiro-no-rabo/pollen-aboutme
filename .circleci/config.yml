@@ -31,7 +31,9 @@ jobs:
           sudo apt-get update && sudo apt-get install -y rsync
           echo ${SERVER_FINGERPRINT} >> ~/.ssh/known_hosts
           chmod +x ~/aboutme
-          `${SYNC_COMMAND}`
+          echo ${SYNC_COMMAND} >> ./sync.sh
+          chmod +x ./sync.sh
+          ./sync.sh
 workflows:
   version: 2
   publish-and-deploy:
