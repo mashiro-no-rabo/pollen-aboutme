@@ -31,7 +31,7 @@
 }
 
 body {
-  margin: 4em 0 0 2em;
+  margin: 4em 0 2em 2em;
   background: ◊白練;
   font-family: ◊font-default;
   font-size: 1em;
