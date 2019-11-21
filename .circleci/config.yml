@@ -3,6 +3,9 @@ jobs:
   pollen-publish:
     docker:
     - image: docker.pkg.github.com/aquarhead/dockerfiles/pollen:latest
+      auth:
+        username: $GHP_USERNAME
+        password: $GHP_PASSWORD
     working_directory: ~/me
     steps:
     - checkout
