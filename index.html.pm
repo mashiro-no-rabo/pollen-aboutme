@@ -40,7 +40,7 @@
 ◊div[#:class "indie"]{
   ◊h2{Indie}
   ◊code{
-    Wizard
+    (◊inlink[#:class "hidden" #:href "https://www.rust-lang.org/"]{&mut} Wizard)
     ◊inlink[#:class "hidden" #:href "https://elixir-lang.org/"]{|>}
     ◊inlink[#:class "codelink" #:href "https://github.com/ElaWorkshop"]{ElaWorkshop}
   }
